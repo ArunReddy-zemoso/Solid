@@ -1,6 +1,7 @@
 package Follow;
 
-class PasswordGenerator extends HashingService{
+class PasswordGenerator //extends HashingService
+{
     public String generatePassword(int length){
         if(length==1)
             return "a";
